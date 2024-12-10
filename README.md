@@ -1,3 +1,38 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17456576)
-# OJP-Practical1
-Practical 1: Creating and Using a Simple Class 
+class Person
+{
+    string firstName;
+    string lastName;
+    int age;
+//Default constructor
+  public person()
+{
+    firstName = "";
+    lastName = "";
+    age = 0;
+}
+public person(string firstName,string lastName,int age){
+  this.firstName=firstName;
+  this.lastName=lastName;
+  this.age=age;
+}
+//Method to get full name
+public string getFullName(){
+  return firstName+""+lastName;
+}
+}
+public class practial1
+{
+  public static void main(string[]args)
+}
+//create two person object
+}
+//create two person object
+person person1=new person("john","Doe",30);
+person person2=new person("Alice","smith",25);
+system.out.println("person1:"+person1.getFullName())
+system.out.println("person2:"+person2.getFullName())
+double averageAge=(person1.age+person2.age)/2.0;
+system.out.println("Average Age:"+averageAge);
+}
+}
+  
